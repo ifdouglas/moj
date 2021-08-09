@@ -20,9 +20,10 @@
     "react-dom": "^17.0.2",
     "react-query": "^3.19.1",
     "react-scripts": "4.0.3",
+    "react-svg": "^14.0.7",
+    "recoil": "^0.4.0",
     "styled-components": "^5.3.0",
-    "typescript": "^4.1.2",
-    "web-vitals": "^1.0.1"
+    "typescript": "^4.1.2"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -34,7 +35,11 @@
     "extends": [
       "react-app",
       "react-app/jest"
-    ]
+    ],
+    "rules": {
+      "import/no-anonymous-default-export": "off",
+      "react/jsx-pascal-case": 0
+    }
   },
   "browserslist": {
     "production": [
