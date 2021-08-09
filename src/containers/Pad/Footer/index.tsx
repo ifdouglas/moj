@@ -69,7 +69,7 @@ const Footer = ({ data }: Props) => {
         disabled={isTryDisabled || mutation.isLoading || mutation.isSuccess}
         onClick={onSubmit}
       >
-        <Text.H2>Try</Text.H2>
+        <Text.H2>try</Text.H2>
       </Button>
       <Button appearance="secondary" onClick={onNext}>
         <ReactSVG src={NextSVG} color="white" />
